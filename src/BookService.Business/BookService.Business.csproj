@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="$(ProjectDir)..\..\Common.Configurations.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookService.Data\BookService.Data.csproj" />
+    <ProjectReference Include="..\BookService.Mappers\BookService.Mappers.csproj" />
+    <ProjectReference Include="..\BookService.Models.Db\BookService.Models.Db.csproj" />
+    <ProjectReference Include="..\BookService.Models.Dto\BookService.Models.Dto.csproj" />
+    <ProjectReference Include="..\BookService.Validation\BookService.Validation.csproj" />
+  </ItemGroup>
+
+</Project>

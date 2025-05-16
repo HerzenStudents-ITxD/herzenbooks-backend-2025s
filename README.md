@@ -1,1 +1,2 @@
-# herzenbooks-backend-2025s
+# UniversityHelper-BookService
+Сервис проекта UniversityHelper для работы с сообществами университета
